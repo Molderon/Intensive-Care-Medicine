@@ -1,0 +1,17 @@
+mysql:
+  host: localhost # Какъв е адресът на сървъра? пример: 192.168.0.*** 
+                  # Address of the Database within the local network? example192.168.0.***
+  user: demo_user # Name of a registered user // Име на потребителско име
+  passwd: password  # Парола за достъп // password
+  database: test_db # Името на базата данни съдържаща таблица данните от вентилаторите
+                    # Naming convention of the database that holds measurment records from MV
+  charset: utf8mb4
+  collation: utf8mb4_unicode_ci
+
+
+ICU_DATASET: null
+
+-i: ""
+
+
+-r: ""
