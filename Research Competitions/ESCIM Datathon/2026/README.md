@@ -1,12 +1,12 @@
-# 🧠 PReVENT2BI Study: Protective Ventilation to Prevent Secondary Brain Injury
+> #  PReVENT2BI Study: Protective Ventilation to Prevent Secondary Brain Injury
 
-## 📋 Project Overview
+## **Project Overview**
 This repository contains the **ESICM Datathon 2026** submission from **Team Code2heal**, investigating the relationship between mechanical ventilation parameters and cerebral perfusion in traumatic brain injury (TBI) patients.
 
-### 🎯 Study Objective
+###  **Study Objective**
 To assess the impact of airway pressure changes during mechanical ventilation on cerebral perfusion pressure (CPP) in TBI patients, with the goal of preventing secondary brain injury through optimized ventilation strategies.
 
-### 🏥 Dataset
+### **🏥 Dataset**
 - **Source**: AmsterdamUMC ICU Database
 - **Patients**: 7,189 mechanically ventilated patients
 - **Groups**: 
@@ -14,7 +14,7 @@ To assess the impact of airway pressure changes during mechanical ventilation on
   - TBI: 1,473 patients (with ICP measurements)
   - Detailed cohort: 279 patients with continuous CVP/ICP measurements (33,138 instances)
 
-### 🔬 Methodology
+### **Methodology**
 - **Retrospective analysis** of ICU patients with TBI
 - **Machine Learning Approach**: Ensemble model using XGBoost, LightGBM, CatBoost, and Random Forest
 - **Target Variables**: Prediction of Central Venous Pressure (CVP) and Intracranial Pressure (ICP)
@@ -33,7 +33,7 @@ The XGBoost-based ensemble model demonstrated excellent predictive performance:
 - **MAE**: 0.0297
 - **RMSE**: 0.2068
 
-### 🔑 Key Findings
+### **Key Findings**
 1. **Feature Importance**: ΔPEEP and previous CVP measurements were the most influential predictors
 2. **Clinical Insight**: Even small PEEP adjustments (1-3 cmH₂O) significantly affect CVP levels
 3. **Brain-Lung Interaction**: Airway pressure changes directly influence cerebral venous drainage
@@ -51,7 +51,7 @@ An interdisciplinary team from:
 - Kirikkale University, Türkiye
 - Ufuk University, Ankara, Türkiye
 
-### 📄 Citation
+### **Citation**
 This work is based on the study: *"Protective ventilation to prevent secondary brain injury - PReVENT2BI study"* presented at ESICM Datathon 2026.
 
 ---
