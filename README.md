@@ -7,6 +7,7 @@
 This repository hosted **Machine** and **Bio-signal** analysis for usage in personalized care. 
 The methodologies used include **High-Frequency** data, **Machibne Learning** and **Digital Twin** technologies, to process and interpret complex datasets.
 As of now, most developments are private yet available on request.
+
 ---
 
 ## 🔒 Data Privacy & Access Policy
