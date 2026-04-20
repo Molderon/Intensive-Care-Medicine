@@ -30,7 +30,7 @@ If you wish to get in touch regarding:
 
 Please contact the author directly via email:
 
-**Author:** Molderon
+**Author:** Molderon <br>
 **Email:** molderon@proton.me
 
 > **Subject Line Template:** `[Request] Access to Repository Source - [Molderon]`
